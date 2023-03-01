@@ -7,7 +7,7 @@ import Config
 # Run `mix help test` for more information.
 config :stac_api, StacApi.Repo,
   username: "stac",
-  password: "stacpasswd",
+  password: "stacpass",
   hostname: "localhost",
   database: "stac_api_test#{System.get_env("MIX_TEST_PARTITION")}",
   pool: Ecto.Adapters.SQL.Sandbox,

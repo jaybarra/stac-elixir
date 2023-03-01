@@ -3,7 +3,7 @@ import Config
 # Configure your database
 config :stac_api, StacApi.Repo,
   username: "stac",
-  password: "stacpasswd",
+  password: "stacpass",
   hostname: "localhost",
   database: "stac_api_dev",
   stacktrace: true,

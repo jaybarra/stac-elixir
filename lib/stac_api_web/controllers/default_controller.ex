@@ -13,8 +13,6 @@ defmodule StacApiWeb.DefaultController do
   end
 
   def root_catalog(conn, params) do
-    params |> IO.inspect()
-
     unless params.pretty_please === "with_sugar_on_top" do
       raise "No means no"
     end
